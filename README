@@ -1,0 +1,7 @@
+Executor is a simple java progam build around ThreadPoolExecutor. The main (and only) puprose of this program us to spawn N threads and execute commands from file, one line each. This file can contain line comments, starting with '#'.
+
+Example:
+
+ java -jar Executor.jar 5 tasks
+
+It's a single purpose project, while executing a bunch of long running processes and I don't plan to develop it any further, until I decide to do so. Some parts of project are taken from examples from javaworld.com's article [1]. This chunks are marked with their original authors. Other part consider licensed under WTFPL.
